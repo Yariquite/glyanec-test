@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'Fixel Text Extra';
+    src: url('FixelText-ExtraBold.eot');
+    src: local('Fixel Text Extra Bold'), local('FixelText-ExtraBold'),
+        url('FixelText-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('FixelText-ExtraBold.woff2') format('woff2'),
+        url('FixelText-ExtraBold.woff') format('woff'),
+        url('FixelText-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fixel Text';
+    src: url('FixelText-Medium.eot');
+    src: local('Fixel Text Medium'), local('FixelText-Medium'),
+        url('FixelText-Medium.eot?#iefix') format('embedded-opentype'),
+        url('FixelText-Medium.woff2') format('woff2'),
+        url('FixelText-Medium.woff') format('woff'),
+        url('FixelText-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fixel Text';
+    src: url('FixelText-Bold.eot');
+    src: local('Fixel Text Bold'), local('FixelText-Bold'),
+        url('FixelText-Bold.eot?#iefix') format('embedded-opentype'),
+        url('FixelText-Bold.woff2') format('woff2'),
+        url('FixelText-Bold.woff') format('woff'),
+        url('FixelText-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fixel Text';
+    src: url('FixelText-Black.eot');
+    src: local('Fixel Text Black'), local('FixelText-Black'),
+        url('FixelText-Black.eot?#iefix') format('embedded-opentype'),
+        url('FixelText-Black.woff2') format('woff2'),
+        url('FixelText-Black.woff') format('woff'),
+        url('FixelText-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fixel Text';
+    src: url('FixelText-Regular.eot');
+    src: local('Fixel Text Regular'), local('FixelText-Regular'),
+        url('FixelText-Regular.eot?#iefix') format('embedded-opentype'),
+        url('FixelText-Regular.woff2') format('woff2'),
+        url('FixelText-Regular.woff') format('woff'),
+        url('FixelText-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fixel Text Semi';
+    src: url('FixelText-SemiBold.eot');
+    src: local('Fixel Text Semi Bold'), local('FixelText-SemiBold'),
+        url('FixelText-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('FixelText-SemiBold.woff2') format('woff2'),
+        url('FixelText-SemiBold.woff') format('woff'),
+        url('FixelText-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fixel Text';
+    src: url('FixelText-Light.eot');
+    src: local('Fixel Text Light'), local('FixelText-Light'),
+        url('FixelText-Light.eot?#iefix') format('embedded-opentype'),
+        url('FixelText-Light.woff2') format('woff2'),
+        url('FixelText-Light.woff') format('woff'),
+        url('FixelText-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fixel Text';
+    src: url('FixelText-Thin.eot');
+    src: local('Fixel Text Thin'), local('FixelText-Thin'),
+        url('FixelText-Thin.eot?#iefix') format('embedded-opentype'),
+        url('FixelText-Thin.woff2') format('woff2'),
+        url('FixelText-Thin.woff') format('woff'),
+        url('FixelText-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Fixel Text Extra';
+    src: url('FixelText-ExtraLight.eot');
+    src: local('Fixel Text Extra Light'), local('FixelText-ExtraLight'),
+        url('FixelText-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('FixelText-ExtraLight.woff2') format('woff2'),
+        url('FixelText-ExtraLight.woff') format('woff'),
+        url('FixelText-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+

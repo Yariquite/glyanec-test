@@ -1,0 +1,194 @@
+@font-face {
+  font-family: "Fixel Text";
+  src: url("../fonts/FixelText-SemiBold.ttf");
+  src: local("Fixel Text Semi Bold"), local("FixelText-SemiBold"), url("../fonts/FixelText-SemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/FixelText-SemiBold.woff2") format("woff2"), url("../fonts/FixelText-SemiBold.woff") format("woff"), url("../fonts/FixelText-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Fixel Text";
+  src: url("../fonts/FixelText-Black.eot");
+  src: local("Fixel Text Black"), local("FixelText-Black"), url("../fonts/FixelText-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/FixelText-Black.woff2") format("woff2"), url("../fonts/FixelText-Black.woff") format("woff"), url("../fonts/FixelText-Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Fixel Text";
+  src: url("../fonts/FixelText-Bold.eot");
+  src: local("Fixel Text Bold"), local("FixelText-Bold"), url("../fonts/FixelText-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/FixelText-Bold.woff2") format("woff2"), url("../fonts/FixelText-Bold.woff") format("woff"), url("../fonts/FixelText-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+header {
+  margin: 20px 0 20px 0;
+  padding: 0 58px 0 58px;
+}
+header .nav {
+  display: flex;
+  justify-content: space-between;
+}
+header .nav_links {
+  display: flex;
+  margin: 20px 0 20px 0;
+  gap: 48px;
+}
+header .nav_links li {
+  list-style: none;
+}
+header .nav_links li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 600;
+  transition: color 0.3s ease;
+  font-family: "Fixel Text";
+}
+header .nav_links li a:hover {
+  color: #000000;
+}
+header .nav_link {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+  transition: color 0.3s ease;
+  font-family: "Fixel Text";
+}
+header .nav_link:hover {
+  color: #000000;
+}
+header .nav_social img {
+  width: 35px;
+  height: 35px;
+  margin: 0 6px 0 6px;
+}
+header .nav_phone {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+header .nav_phone .nav_phone_text {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Fixel Text";
+  padding-bottom: none;
+  margin: 0;
+}
+header .nav_phone .nav_phone_link {
+  padding-top: none;
+  text-decoration: none;
+  color: black;
+  font-size: 26px;
+  font-weight: 600;
+  transition: color 0.3s ease;
+  font-family: "Fixel Text";
+  line-height: 125%;
+}
+header .nav .logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+header .nav .logo img {
+  height: 60px;
+}
+header .nav .logo .block_logo {
+  display: inline-block;
+  gap: 20px;
+}
+header .nav .logo .block_logo .logo_glua {
+  display: block;
+  text-decoration: none;
+}
+header .nav .logo .block_logo .logo_glua img {
+  height: 44.59px;
+}
+header .nav .logo .block_logo .subtitle {
+  display: block;
+  font-family: "Fixel Text";
+}
+header .nav .logo .block_logo .subtitle img {
+  height: 9.46px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  max-width: 1700px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.hero_content {
+  height: 840px;
+  width: 100%;
+  background-color: #3F00FF;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 58px;
+  align-items: flex-start;
+  justify-content: center;
+}
+.hero_content .hero_title {
+  font-family: "Fixel Text";
+  font-weight: 900;
+  font-size: 90px;
+  line-height: 110%;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  width: 50%;
+  display: block;
+  margin: 0;
+  margin-bottom: 20px;
+}
+.hero_content .hero_text {
+  font-family: "Fixel Text";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+  display: block;
+  margin: 0;
+  width: 50%;
+}
+.hero_content .hero_button {
+  background-color: #FFDF00;
+  border-radius: 10px;
+  padding: 20px 82px;
+  font-family: "Fixel Text";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 125%;
+  letter-spacing: 0px;
+  color: #000000;
+  border: none;
+  margin-top: 40px;
+  z-index: 10;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.hero_content .hero_button:hover {
+  background-color: #FFB800;
+}
+.hero_content .hero_image img {
+  width: 877px;
+  position: absolute;
+  top: 354px;
+  left: 1023px;
+  object-fit: cover;
+  z-index: 10;
+}
+.hero_content .hero_background_img {
+  position: absolute;
+}
+.hero_content .hero_background_img img {
+  width: 100%;
+  height: 100%;
+}
+
+/*# sourceMappingURL=style.css.map */
