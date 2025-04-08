@@ -132,6 +132,38 @@ header .nav .logo .block_logo .subtitle img {
   padding: 0 58px;
   align-items: flex-start;
   justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+.hero_content .hero-swiper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 2;
+}
+.hero_content .swiper-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.hero_content .swiper-button-next,
+.hero_content .swiper-button-prev {
+  color: #FFFFFF;
+}
+.hero_content .swiper-button-next::after,
+.hero_content .swiper-button-prev::after {
+  font-size: 24px;
+}
+.hero_content .swiper-pagination-bullet {
+  background: #FFD00E;
+  width: 16px;
+  height: 16px;
+  border: 1px solid white;
+  opacity: 0.4;
+}
+.hero_content .swiper-pagination-bullet-active {
+  opacity: 1;
 }
 .hero_content .hero_title {
   font-family: "Fixel Text";
@@ -178,8 +210,8 @@ header .nav .logo .block_logo .subtitle img {
 .hero_content .hero_image img {
   width: 877px;
   position: absolute;
-  top: 354px;
-  left: 1023px;
+  top: 163.5px;
+  left: 891px;
   object-fit: cover;
   z-index: 10;
 }

@@ -149,6 +149,41 @@ header{
         padding: 0 58px;
         align-items: flex-start;
         justify-content: center;
+        position: relative;
+        overflow: hidden;
+        
+        .hero-swiper {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            z-index: 2;
+        }
+
+        .swiper-slide {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+        }
+
+        .swiper-button-next,
+        .swiper-button-prev {
+            color: #FFFFFF;
+            &::after {
+                font-size: 24px;
+            }
+        }
+
+        .swiper-pagination-bullet {
+            background: #FFD00E;
+            width: 16px;
+            height: 16px;
+            border: 1px solid white;
+            opacity: 0.4;
+            &-active {
+                opacity: 1;
+            }
+        }
         
         .hero_title{
             font-family: "Fixel Text";
@@ -161,7 +196,6 @@ header{
             display: block;
             margin: 0;
             margin-bottom: 20px;
-            
         }
         .hero_text{
             font-family: "Fixel Text";
@@ -197,8 +231,8 @@ header{
             img{
                 width: 877px;
                 position: absolute;
-                top: 354px;
-                left: 1023px;  
+                top: 163.5px;
+                left: 891px;  
                 object-fit: cover;
                 z-index: 10;
             }
